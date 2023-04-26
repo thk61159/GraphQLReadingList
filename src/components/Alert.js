@@ -27,17 +27,16 @@ const arr = {
 	),
 }
 
+
 const Alert = ({ alertNote, alertType }) => {
-  
-	return (	
-			<div className={'alert'}>
-				<div className={'alert-c'}>
-					<p className={'alert-p'}>{alertNote}</p>
-					{arr[alertType]}
-				</div>
+	return (
+		<div className={'alert'}>
+			<div className={'alert-c'}>
+				<p className={'alert-p'}>{alertNote}</p>
+				{arr[alertType]}
 			</div>
-		
- 	)
- }
+		</div>
+	)
+}
 
 export default Alert
