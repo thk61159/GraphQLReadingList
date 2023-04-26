@@ -2,7 +2,6 @@ import {
 	ApolloClient,
 	InMemoryCache,
 	ApolloProvider,
-	gql,
 } from '@apollo/client'
 
 import { BookList } from './components/BookList'
@@ -10,10 +9,9 @@ import AddBook from './components/AddBook'
 
 // setup apollo client
 const client = new ApolloClient({
-	uri: 'http://localhost:4000/graphql',
+	uri: process.env.REACT_APP_GRAPHQL_API,
 	cache: new InMemoryCache(),
 })
-
 function App() {
   return (
 		<ApolloProvider client={client}>
