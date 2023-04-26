@@ -1,7 +1,6 @@
 {
 	"name": "learn-graphql",
-	"homepage": "
-	",
+	"homepage": "http://thk61159.github.io/GraphQLReadingList",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
