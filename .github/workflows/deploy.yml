@@ -37,4 +37,4 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
           github_token: ${{ secrets.DEPLOY_SECRET }}
           repository: ${{ github.repository }}
-          REACT_APP_TWITTER_API: ${{ secrets.REACT_APP_GRAPHQL_API }}
+          REACT_APP_GRAPHQL_API: ${{ secrets.REACT_APP_GRAPHQL_API }}
